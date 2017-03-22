@@ -25,8 +25,8 @@ sys.setdefaultencoding("utf-8")
 
 TOKEN = 'Your Token Here'
 bot = telebot.TeleBot(TOKEN)
-sudo = 142141024
-channel = "@CyberCH"
+sudo = 93365812
+channel = "@PrimeTeam"
 rediss = redis.StrictRedis(host='localhost', port=6379, db=0)
 db = "https://api.telegram.org/bot{}/getMe?".format(TOKEN)
 res = urllib.urlopen(db)
@@ -493,7 +493,7 @@ def callback(call):
        markup.add(c)
        b = types.InlineKeyboardButton("راهنما",callback_data='helpfa')
        markup.add(b)
-       oo = types.InlineKeyboardButton("کانال", url='https://telegram.me/CyberCH')
+       oo = types.InlineKeyboardButton("کانال", url='https://telegram.me/PrimeTeam')
        markup.add(oo)
        rediss.set('language','fa')
        rediss.hdel("translate:text","{}".format(call.from_user.id))
@@ -560,7 +560,7 @@ def callback(call):
             bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text="Send Your Text To Translate")
      if call.message:
         if call.data == "aboutfa":
-            bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text="روبات مترجم توسط @AlphaCyber ساخته شده است و به زبان پایتون نوشته شده است")
+            bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text="روبات مترجم توسط @SorBlack ساخته شده است و به زبان پایتون نوشته شده است")
      if call.message:
         if call.data == "about":
             bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text="TranslateBot Created By @AlphaCyber And Written In Python")
