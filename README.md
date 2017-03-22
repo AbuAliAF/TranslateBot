@@ -1,5 +1,5 @@
-# TranslateBot
-# An Advanced Translation Bot Based On TeleBot
+# TranslateBot [PrimeTeam & Prime_Plus](https://t.me/PrimeTeam)
+# An Advanced Translation Bot Based On SorBlackTranslate Bot
 
 **Put Your ```Token``` And ```ID``` And ```ChannelUsername``` In Translate.py And Set Bot As Administrator In Your Channel!**
 
@@ -35,8 +35,16 @@ tmux
 screen python Translate.py
 ```
 
+#install killall
+```
+sudo apt-get install psmisc
+```
+
+#for Help more
+send massage to `@PmSorblackBot` [@PmSorBlackBot](Https://t.me/pmsorblackbot)
+
 # Developer
-[AlphaCyber](https://telegram.me/AlphaCyber)
+[SorBlack](https://telegram.me/SorBlack)
 
 # Channel
-[IranCyber](https://telegram.me/CyberCH)
+[PrimeTeam](https://telegram.me/PrimeTeam)
